@@ -19,7 +19,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
 
 \begin{document}
@@ -36,7 +36,7 @@
 San Diego, CA 92129
 USA
 ~
-(858) 602 2088
+(858) 602-2088
 ~
 \href{mailto:stuart4@purdue.edu}{Stuart4@Purdue.edu}
 \href{http://stuartresearch.org}{StuartResearch.org}
@@ -47,7 +47,7 @@ Java, C/C++,
 Android Development,
 Linux Kernel,
 Git Source Control,
-Node.js
+SQL, Node.js
 \end{aside}
 
 %----------------------------------------------------------------------------------------
@@ -62,13 +62,39 @@ Node.js
 
 \entry
 {2014--Now}
-{Bachelor of Science {\normalfont Computer Science} (3.6)}
+{Bachelor of Science - Computer Science {\normalfont (3.6/4.0)}}
 {Purdue University}
-{Expected May 2017\\
-Software Engineering and Computer Security Concentration\\
-Management Minor}
+{Minor in Management
+	\begin{itemize}
+	\item Expected May 2017
+	\item Dean's List
+	\end{itemize}}
 
 %------------------------------------------------
+
+\end{entrylist}
+
+\section{Experience}
+
+\begin{entrylist}
+
+\entry
+{2015--Now}
+{Scientific Applications Developer}
+{Rosen Center for Advanced Computing}
+{Architecting tools used in the maintenance and operation of Purdue's High\\ Performance Computing resources.
+\begin{itemize}
+	\item Software Package Maintenance
+	\item Kernel Optimization
+	\item Quality Assurance and Trouble-Shooting
+\end{itemize}}
+
+\entry
+{2015--Now}
+{Undergraduate TA}
+{CS190 (Tools and Resources)}
+{Instructing students on advanced techniques regarding shells, advanced\\ editors, source control, and debugging.}
+
 
 \end{entrylist}
 
@@ -79,6 +105,29 @@ Management Minor}
 \section{Projects}
 
 \begin{entrylist}
+%------------------------------------------------
+
+\entry
+{Ongoing}
+{Linux Kernel Development}
+{Kernel C}
+{Designing and integrating various modules and drivers into the Linux Kernel and utilized advanced Kernel compilation techniques.
+\begin{itemize}
+\item Investigating the sending of git patches in plain text
+\item Generating pseudo Linux Kernel Mailing List interactions
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{Ongoing}
+{Tapzu}
+{Android Application}
+{Formulating advanced content aggregation front end. Exploiting advanced\\ Android patterns such as MVVM and databinding.
+\begin{itemize}
+\item Devised asynchronous fetchings in RxJava
+\item Cultivated 500 active users on Google Play
+\end{itemize}}
 
 %------------------------------------------------
 
@@ -86,37 +135,12 @@ Management Minor}
 {May 2015}
 {Radio 91x}
 {Android Application}
-{An Android application designed to stream music in the background with a modern and intuitive material design interface, song history, and favorites.
+{Reverse engineered a closed streaming API into an Android application\\ designed to stream music in the background with song history and favorites.
 \begin{itemize}
-\item Foreground Service with IBinder Communication
-\item Material Design
-\item Sqlite Backend
+\item Constructed foreground service with IBinder communication
+\item Devised SQLITE backend
 \end{itemize}}
 
-%------------------------------------------------
-
-\entry
-{May 2015}
-{The Crate Escape}
-{Unity Game}
-{2D infinite runner with raycasting, an object pool, and advanced vector-based movement.
-\begin{itemize}
-\item Xbox 360 Controller Support
-\item Unique Graphics
-\end{itemize}}
-
-%------------------------------------------------
-
-\entry
-{Dec 2014}
-{Purdue Eats}
-{Android Application}
-{Website crawler that parses the Purdue Dining Court's menus to provide a native interface.
-\begin{itemize}
-\item Rock Solid Stability
-\item Favorites, Dislikes, Intelligent Anticipation
-\item Sqlite Backend
-\end{itemize}}
 
 %------------------------------------------------
 
@@ -124,10 +148,10 @@ Management Minor}
 {June 2015}
 {Push Torrent}
 {Node.js Server Applicaton}
-{Nonblocking server application to follow a websocket and intelligently download links.
+{Developed nonblocking server application to observe a websocket and\\ intelligently download links.
 \begin{itemize}
-\item Websockets
-\item Gzip Support
+\item Implements websockets
+\item Incorporated Gzip support
 \end{itemize}}
 
 %------------------------------------------------
@@ -136,10 +160,10 @@ Management Minor}
 {April 2015}
 {IRC Client}
 {C++ with GTK GUI}
-{Server and client reimplementation of the IRC specification.
+{Reimplemented server and client of the IRC specification.
 \begin{itemize}
-\item GTK Gui
-\item Featureful C Networking
+\item Integrated GTK GUI
+\item Wrote featureful C Networking
 \end{itemize}}
 
 \end{entrylist}
@@ -147,83 +171,5 @@ Management Minor}
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
-
-\section{Experience}
-
-\begin{entrylist}
-
-\entry
-{2015--Now}
-{Linux Kernel Development}
-{Kernel C}
-{I am currently taking the Eudyptula Challenge. So far, my driver work includes USB drivers and misc char device drivers.}
-
-\end{entrylist}
-
-\section{Awards}
-
-\begin{entrylist}
-
-%------------------------------------------------
-
-\entry
-{2014--Now}
-{Dean's List}
-{Purdue University}
-{Awarded to the top students academically.}
-
-%------------------------------------------------
-
-\end{entrylist}
-
-%----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Relevent Coursework}
-
-\begin{entrylist}
-
-%------------------------------------------------
-
-\entry
-{Fall 2014}
-{Introduction to Object Oriented Programming}
-{Purdue University}
-
-%------------------------------------------------
-
-\entry
-{Spring 2015}
-{Programming in C}
-{Purdue University}
-
-%------------------------------------------------
-
-\entry
-{Spring 2015}
-{Foundations of Computer Science}
-{Purdue University}
-
-%------------------------------------------------
-
-\entry
-{Spring 2015}
-{Scientific Writing and Presenting}
-{Purdue University}
-
-%------------------------------------------------
-
-\end{entrylist}
-
-%----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Interests}
-
-\textbf{professional:} mobile application development, economics, UX design, software design
-
-\textbf{personal:} longboarding, cars, movies
 
 \end{document}
